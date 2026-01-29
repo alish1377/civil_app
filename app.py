@@ -42,14 +42,14 @@ col1, col2 = st.columns(2)
 
 with col1:
     activator_content = st.slider(
-        "Activator Content (between 0 to 9 %)",
+        "Activator Content (between 0 and 9 %)",
         min_value=0,
         max_value=9,
         value=6
     )
 
     possulan_content = st.slider(
-        "Possulan Content (between 0 to 30 %)",
+        "Possulan Content (between 0 and 30 %)",
         min_value=0,
         max_value=30,
         value=20
@@ -62,7 +62,7 @@ with col1:
 
 with col2:
     vertical_stress = st.slider(
-        "Vertical Stress (between 50 to 150 kPa)",
+        "Vertical Stress (between 50 and 150 kPa)",
         min_value=50.0,
         max_value=150.0,
         value=100.0,
@@ -70,7 +70,7 @@ with col2:
     )
 
     loading_amplitude = st.slider(
-        "Loading Amplitude (between 0.05 to 1 mm)",
+        "Loading Amplitude (between 0.05 and 1 mm)",
         min_value=0.05,
         max_value=1.0,
         value=0.1,
